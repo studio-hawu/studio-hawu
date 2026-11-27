@@ -110,6 +110,9 @@
     flex-shrink:0;
   }
 
+  .project-video{ display:flex; justify-content:center; margin-bottom:56px; }
+  .project-video video{ display:block; width:auto; max-width:100%; height:min(80vh, 720px); aspect-ratio:9/16; background:var(--ink); object-fit:contain; }
+
   .project-body{
     display:grid;
     grid-template-columns:1.1fr 0.9fr;
@@ -190,6 +193,14 @@
         <div class="hero-slide"><img src="../photo/work-04/IMG_3104.JPG" alt="佐野古民家改修 1" aria-hidden="true"></div>
       </div>
     </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="project-video">
+    <video controls playsinline preload="metadata" poster="../video/work-04-poster.jpg">
+      <source src="../video/work-04.mp4" type="video/mp4">
+    </video>
   </div>
 </div>
 
